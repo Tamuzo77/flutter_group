@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todolist/components/meeting_card.dart';
 
 class MainScreen extends StatelessWidget {
   static String routeName = "/home";
@@ -11,7 +12,8 @@ class MainScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("To DO LIST By Flutter Group")
+            Text("To DO LIST By Flutter Group"),
+            MeetingCard()
           ],
         ),
       ),
